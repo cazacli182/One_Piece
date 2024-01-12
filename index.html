@@ -1,0 +1,105 @@
+<!-- CTRL + ; comenta e descomenta código -->
+<!-- Este é um exemplo de comentário! -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontes adquiridas no google fontes: Rubik e Secular One. Clica nas duas, na opção 400, copia os links e cola aqui! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">    <!-- link com o arquivo do css de reset -->
+    <link rel="stylesheet" href="./src/css/estilos.css">  <!-- link com o arquivo do css para a página--> 
+    <link rel="stylesheet" href="./src/css/responsivo.css">  <!-- link com o arquivo do css para deixar a página responsiva--> 
+
+    <title>One Piece - Semana do Zero ao Programador</title>
+</head>
+<body>
+    <main class="personagens">
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/personagem-tony-chopper.jpg" alt="Personagem Tony Chopper">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Tony CHopper</h2>
+                <p class="descricao">Esta pequena rena ganhou a habilidade de mudar sua forma e de pensar como humanos após comer a fruta Hito Hito no Mi. Chopper é um valioso membro da tripulação dos Piratas do Chapéu de Palha, atuando como médico da tripulação.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/personagem-roronoa-zoro.jpg" alt="Personagem Roronoa Zoro">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Roronoa Zoro</h2>
+                <p class="descricao">Primeiro pirata (segundo membro se contarmos com Luffy) a se juntar à tripulação de Piratas do Chapéu de Palha, Zoro aceitou o convite de Luffy após o capitão salvar sua vida.</p>
+            </div>
+        </div>
+
+        <div class="personagem selecionado">
+            <img class="imagem" src="./src/imagens/personagem-monkey-d-luffy.jpg" alt="Personagem Monkey D. Luffy">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Monkey D. Luffy</h2>
+                <p class="descricao">"Luffy do Chapéu de Palha". Como ficou conhecido, é o protagonista do anime, e o fundador e capitão da tripulação Piratas do Chapéu de Palha. Desde muito jovem, tem como seu maior sonho um dia encontrar o lendário tesouro de Gol. D. Roger. para se tornar o novo Rei dos piratas.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/personagem-nami.jpg" alt="Personagem Nami">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Nami</h2>
+                <p class="descricao">Uma órfã de guerra, ainda criança Nami foi adotada por Bell-mère, uma mulher da Marinha. Enquanto crescia ao lado de sua irmã adotiva Nojiko, Nami já demonstrava sua paixão por desenhar mapas, sonhando em um dia fazer o mapa de todo o mundo.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/personagem-sanji.jpg" alt="Personagem Sanji">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Sanji</h2>
+                <p class="descricao">Também conhecido como "Perna Negra" Sanji, este pirata foi o quinto a integrar a tripulação de Luffy. Suas ações como pirata lhe renderam a terceira maior recompensa entre os membros do Chapéu de Palha, além de atuar como cozinheiro oficial do grupo.</p>
+            </div>
+        </div>
+
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/flag-chopper.jpg" alt="Tripulação Chopper">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/flag-zoro.jpg" alt="Tripulação Roronoa Zoro">
+            </button>
+        </li>
+        <li>
+            <button class="botao selecionado">
+                <img src="./src/imagens/tripulacao-luffy.png" alt="Tripulação Monkey D. Luffy">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/flag-nami.jpg" alt="Tripulação Nami">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/flag-sanji.jpg" alt="Tripulação Sanji">
+            </button>
+        </li>
+    </ul>
+
+    <!-- A chamada o arquivo javascript fica no final para que o javascript seja o último a ser carregado, bem após o html ser carregado -->
+    <script src="./src/js/index.js"></script> 
+
+</body>
+</html>
+
+#ALT+L+O abre o live server...
+#https://www.deviantart.com/jormxdos/art/Roronoa-Zoro-Jolly-Roger-934715770
